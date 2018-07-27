@@ -1,0 +1,23 @@
+{
+    "id": "c",
+    "name": "C",
+    "extensions": ["c"],
+    "highlighting": [
+        {
+            "regex": "(\".*?\")|('.*?')",
+            "style": "string"
+        },
+        {
+            "regex": "(?<!\\\\)/\\*[\\w\\W]*?(?<!\\\\)\\*/",
+            "style": "comment"
+        },
+        {
+            "regex": "//.*$",
+            "style": "comment"
+        },
+        {
+            "words": ["auto", "break", "case", "char", "const", "continue", "default", "do", "double", "else", "enum", "extern", "float", "for", "goto", "if", "int", "long", "register", "return", "short", "signed", "sizeof", "static", "struct", "switch", "typedef", "union", "unsigned", "void", "volatile", "while"],
+            "style": "keyword"
+        }
+    ]
+}

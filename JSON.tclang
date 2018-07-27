@@ -1,0 +1,11 @@
+{
+    "id": "json",
+    "name": "JSON",
+    "extensions": ["json"],
+    "highlighting": [
+        {
+            "regex": "(\".*?\")|('.*?')",
+            "style": "string"
+        }
+    ]
+}

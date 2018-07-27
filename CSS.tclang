@@ -1,0 +1,11 @@
+{
+    "id": "css",
+    "name": "CSS",
+    "extensions": ["css", "less", "html", "less", "scss"],
+    "highlighting": [
+        {
+            "regex": "(\".*?\")|('.*?')",
+            "style": "string"
+        }
+    ]
+}

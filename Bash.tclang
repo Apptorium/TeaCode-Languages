@@ -1,0 +1,16 @@
+{
+    "id": "bash",
+    "name": "Bash",
+    "extensions": ["sh"],
+    "highlighting": [
+	    {
+	        "regex": "\\#.*$",
+	        "style": "comment"
+	    },
+        {
+            "regex": "(\".*?\")|('.*?')",
+            "style": "string"
+        }
+    ]
+}
+

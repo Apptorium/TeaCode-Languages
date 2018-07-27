@@ -1,0 +1,15 @@
+{
+    "id": "xml",
+    "name": "XML",
+    "extensions": ["xml"],
+    "highlighting": [
+        {
+            "regex": "(\".*?\")|('.*?')",
+            "style": "string"
+        },
+        {
+            "regex": "(?<!\\\\)<!--[\\w\\W]*?(?<!\\\\)-->",
+            "style": "comment"
+        }
+    ]
+}

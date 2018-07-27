@@ -1,0 +1,23 @@
+{
+    "id": "java",
+    "name": "Java",
+    "extensions": ["java"],
+    "highlighting": [
+        {
+            "regex": "(\".*?\")|('.*?')",
+            "style": "string"
+        },
+        {
+            "regex": "(?<!\\\\)/\\*[\\w\\W]*?(?<!\\\\)\\*/",
+            "style": "comment"
+        },
+        {
+            "regex": "//.*$",
+            "style": "comment"
+        },
+        {
+            "words": ["abstract", "continue", "for", "new", "switch", "assert", "default", "goto", "package", "synchronized", "boolean", "do", "if", "private", "this", "break", "double", "implements", "protected", "throw", "byte", "else", "import", "public", "throws", "case", "enum", "instanceof", "return", "transient", "catch", "extends", "int", "short", "try", "char", "final", "interface", "static", "void", "class", "finally", "long", "strictfp", "volatile", "const", "float", "native", "super", "while"],
+            "style": "keyword"
+        }
+    ]
+}

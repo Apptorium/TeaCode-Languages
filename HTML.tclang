@@ -1,0 +1,15 @@
+{
+    "id": "html",
+    "name": "HTML",
+    "extensions": ["html", "htm"],
+    "highlighting": [
+        {
+            "regex": "=\\s?(\".*?\")|('.*?')",
+            "style": "string"
+        },
+        {
+            "regex": "(?<!\\\\)<!--[\\w\\W]*?(?<!\\\\)-->",
+            "style": "comment"
+        }
+    ]
+}
